@@ -22,18 +22,28 @@ function alcoholAgeCheck() {
 }
 function drink() {
     var drink_name = prompt('what your favorite drink?');
-    console.log('Enjoy your ' + drink_name +'!');
+    console.log('Enjoy your ' + drink_name + '!');
 }
 
 
 
 var score = 1;
 function multTen() {
-score = score * 10;
-console.log(score);
+    score = score * 10;
+    console.log(score);
 
 }
 
+function resetScore() {
+    score = score * 10;
+    console.log(score);
+    if (score > 100000) {
+        score = 1;
+        console.log(score);
+       
+    }
+}
+resetScore();
 multTen();
 //alcoholAgeCheck();
 //alcoholAgeCheck();
