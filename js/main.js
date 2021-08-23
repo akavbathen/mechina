@@ -1,20 +1,20 @@
 // Write to the console 'Hello JS!'.
-console.log('Hello JS!');
+ //console.log('Hello JS!');
 
 // Define a new Variable –userName. Store your name in it.
 // Write to the console: “Hello <userName>!” using this Variable.
 var userName = 'bathen';
-console.log('Hello', userName + '!');
+//console.log('Hello', userName + '!');
 
 // Define 2 variables -country and city,and use prompt() to get
 // from the user the value for these variables.
-var country = prompt('Please enter country');
+//var country = prompt('Please enter country');
 var city = prompt('Please enter your city');
 
 // Define more variable –address that will contain the city and the country
 var address = country + ' ' + city;
 // Write to the console the address in the following way: “The address is: <address>”
-console.log('The address is: ' + address);
+//console.log('The address is: ' + address);
 
 // Define a new Variable –age and use prompt() to get a value from the user
 var age = prompt('What is your age?');

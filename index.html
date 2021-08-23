@@ -1,73 +1,89 @@
 <html>
-    <head>
-        <title>A little about me</title>
-        <style>
-            h2 {
-                background-color: yellow;
-                color: rgb(0, 0, 0);
-                padding: 10px;
-                margin: 20px;
-                border-style: dotted;
-                border-radius: 10px;
-            }
 
-            p {
-                color: lightcoral;
-                width: 400px;
-                margin: 20px;
-                border-radius: 10px;
-                border-style: solid;
-            }
+<head>
+    <title>A little about me</title>
 
-            .nice {
-                color: firebrick;
-                text-align: center;
-            }
+    <style>
+        h2 {
+            background-color: yellow;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 20px;
+            border-style: dotted;
+            border-radius: 10px;
+        }
 
-            h3 {
-                text-decoration: underline;
-                text-align: center;
-                margin-top: 50px;
-            }
+        p {
+            color: lightcoral;
+            width: 400px;
+            margin: 20px;
+            border-radius: 10px;
+            border-style: solid;
+        }
 
-            img {
-                height: 300px;
-            }
+        .nice {
+            color: firebrick;
+            text-align: center;
+        }
 
-            .button1 {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-            }
+        h3 {
+            text-decoration: underline;
+            text-align: center;
+            margin-top: 50px;
+        }
 
-            .container {
-                height: 20px;
-                position: relative;
-            }
+        img {
+            height: 300px;
+        }
 
-            hr {
-                height: 2px;
-                background-color: darkred;
-            }
-        </style>
-    </head>
+        .button1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
 
-    <body>
-        <div class="Titles">
-            <h1>Bat-hen akav</h1>
-            <h2>a short summary</h2>
-        </div>
-        <p>
-            Hi,<span style="color: rgb(255, 0, 179); font-weight: bold"
-                >my name</span
-            >is Bat Hen from Tel Aviv. Coming to you from the insurance
-            industry, i would be very happy to join the intriguing high-tech
-            world. In my free time I train with my partner, meet friends and
-            sometimes even dance a little. Wishing everyone and especially me
-            good luck.
-        </p>
+        .container {
+            height: 20px;
+            position: relative;
+        }
+
+        hr {
+            height: 2px;
+            background-color: darkred;
+        }
+        .ball1 {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            transition: 0.3s;
+            line-height: 50px;
+            background-color: darkcyan;
+            border-color: darkkhaki;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="Titles">
+        <h1>Bat-hen akav</h1>
+        <h2>a short summary</h2>
+    </div>
+    <p>
+        Hi,<span style="color: rgb(255, 0, 179); font-weight: bold">my name</span>is Bat Hen from Tel Aviv. Coming to
+        you from the insurance
+        industry, i would be very happy to join the intriguing high-tech
+        world. In my free time I train with my partner, meet friends and
+        sometimes even dance a little. Wishing everyone and especially me
+        good luck.
+    </p>
+    <div class="ball1" onclick="onBall1Click()" >
+    </div>
+
 
         <a href="https://www.havanaclub.co.il/">havana</a>
         <br />
@@ -84,12 +100,18 @@
                 <button>click me</button>
             </div>
         </div>
-        <script src="js/main2.js"></script>
-        
+
+        <script src="js/main.js"> </script>
+        <script src="js/main2.js"> </script>
+        <script src="js/main3.js"> </script>
+
+
         <button onclick="drink()">Drink</button>
 
         <button onclick="multTen()">multi</button>
         <button onclick="resetScore()">reset</button>
         <button onclick="calculateMult()">calculateMult</button>
-    </body>
+        <button onclick="onBall1Click()">ball1</button>
+
+
 </html>
