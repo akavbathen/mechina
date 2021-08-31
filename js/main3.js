@@ -14,3 +14,14 @@ function changeTextSize() {
         el_ball1.style.fontSize = size + 'px';
     }
 }
+var igul = true;
+function toggleBallShape() {
+    var el_ball1 = document.querySelector('.ball1');
+    if (igul === true) {
+        igul = false;
+        el_ball1.style.borderRadius = '10%';
+    } else {
+        igul = true;
+        el_ball1.style.borderRadius = '50%';
+    }
+}
