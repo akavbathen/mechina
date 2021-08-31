@@ -2,8 +2,8 @@
 //alcoholAgeCheck();
 //alcoholAgeCheck();
 //calculateMult();
- //resetScore();
- //multTen();
+//resetScore();
+//multTen();
 
 function alcoholAgeCheck() {
     var userName = prompt('What is your name?');
@@ -54,6 +54,6 @@ function calculateMult() {
     var use1 = prompt('give me number pleas?');
     var use2 = prompt('give me number pleas?');
     var use3 = prompt('give me number pleas?');
-    console.log(' their multi plication of 3 number '+ use1 * use2 * use3);
-  }
+    console.log(' their multi plication of 3 number ' + use1 * use2 * use3);
+}
 

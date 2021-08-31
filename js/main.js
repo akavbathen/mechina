@@ -1,5 +1,5 @@
 // Write to the console 'Hello JS!'.
- //console.log('Hello JS!');
+//console.log('Hello JS!');
 
 // Define a new Variable –userName. Store your name in it.
 // Write to the console: “Hello <userName>!” using this Variable.
@@ -26,18 +26,18 @@ var age = prompt('What is your age?');
 if (age >= 18) {
     console.log(
         'Welcome ' +
-            userName +
-            ', you are ' +
-            age +
-            ', so you are old enough to buy Beer'
+        userName +
+        ', you are ' +
+        age +
+        ', so you are old enough to buy Beer'
     );
 } else {
     console.log(
         'We are sorry, ' +
-            userName +
-            ', you are ' +
-            age +
-            ', and it means that you are too young for buying Beer'
+        userName +
+        ', you are ' +
+        age +
+        ', and it means that you are too young for buying Beer'
     );
 }
 
