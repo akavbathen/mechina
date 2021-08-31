@@ -1,4 +1,6 @@
 console.log('day 4');
-function onBall1Click() {
-    alert('dfff');
+function changeTextColor() {
+    var el_ball1 = document.querySelector('.ball1');
+    console.log(el_ball1);
+    el_ball1.style.color = 'green';
 }
