@@ -17,11 +17,20 @@ function changeTextSize() {
 var igul = true;
 function toggleBallShape() {
     var el_ball1 = document.querySelector('.ball1');
+    var el_toggle = document.querySelector('.toggle-btn');
     if (igul === true) {
         igul = false;
         el_ball1.style.borderRadius = '10%';
+        el_toggle.innerHTML = 'round';
     } else {
         igul = true;
         el_ball1.style.borderRadius = '50%';
+        el_toggle.innerHTML = 'square';
     }
+}
+var margin = 10;
+function moveDown() {
+    margin = margin + 10;
+    var el_ball1 = document.querySelector('.ball1');
+    el_ball1.style.marginTop = margin + 'px';
 }
