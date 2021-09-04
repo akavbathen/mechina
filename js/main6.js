@@ -37,8 +37,28 @@ for (i = 0; i < pers.length; i++) {
     console.log(pers[i]);
     if (pers[i].age >= 18) {
         console.log('Welcome');
-}
+    }
     else {
         console.log('Maybe next time');
     }
+}
+
+// 3
+var sam = 0
+var nums1 = [1, 2, 3];
+var nums2 = [4, 5, 6];
+var nums3 = [7, 8, 9];
+var mat = [nums1, nums2, nums3];
+
+console.log(mat);
+
+for (i = 0; i < mat.length; ++i) {
+    console.log(mat[i]);
+    for (j = 0; j < mat[i].length; ++j) {
+
+        console.log(mat[i][j]);
+        sam=mat[i][j]+sam;
+        console.log(sam);
+    }
+
 }
