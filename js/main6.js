@@ -44,7 +44,7 @@ for (i = 0; i < pers.length; i++) {
 }
 
 // 3
-var sam = 0
+var sum = 0
 var nums1 = [1, 2, 3];
 var nums2 = [4, 5, 6];
 var nums3 = [7, 8, 9];
@@ -57,8 +57,10 @@ for (i = 0; i < mat.length; ++i) {
     for (j = 0; j < mat[i].length; ++j) {
 
         console.log(mat[i][j]);
-        sam=mat[i][j]+sam;
-        console.log(sam);
+        sum = mat[i][j] + sum;
+
+
     }
 
 }
+console.log(sum);
